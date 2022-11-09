@@ -63,7 +63,7 @@
 				const ctx = c.getContext('2d')
 				const image = new Image()
 				
-				image.src = './images/long.png'
+				image.src = './src/images/long.png'
 				image.onload = () => {
 				  c.width = image.width
 				  c.height = image.height
@@ -88,7 +88,7 @@
 								// ctx.fillStyle = '#000'
 								// ctx.fillRect(w ,h, 4,4)
 								const bubble = document.createElement('img')
-								bubble.src = './images/bubble.png'
+								bubble.src = './src/images/bubble.png'
 								bubble.setAttribute('class','bubble')
 								
 								const bubbleSize = Math.random() * 10 + 20
